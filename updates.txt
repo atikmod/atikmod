@@ -1,0 +1,6 @@
+Get:1 http://kali.download/kali kali-rolling InRelease [34.0 kB]
+Get:2 http://kali.download/kali kali-rolling/main arm64 Packages [20.7 MB]
+Get:3 http://kali.download/kali kali-rolling/contrib arm64 Packages [103 kB]
+Get:4 http://kali.download/kali kali-rolling/non-free arm64 Packages [149 kB]
+Fetched 21.0 MB in 9s (2373 kB/s)
+Reading package lists...
