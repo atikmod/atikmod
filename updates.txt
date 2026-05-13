@@ -1,6 +1,180 @@
-Get:1 http://kali.download/kali kali-rolling InRelease [34.0 kB]
-Get:2 http://kali.download/kali kali-rolling/main arm64 Packages [20.7 MB]
-Get:3 http://kali.download/kali kali-rolling/contrib arm64 Packages [103 kB]
-Get:4 http://kali.download/kali kali-rolling/non-free arm64 Packages [149 kB]
-Fetched 21.0 MB in 9s (2373 kB/s)
 Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+The following packages were automatically installed and are no longer required:
+  libabsl20240722  libicu76  libsox-fmt-base
+Use 'sudo apt autoremove' to remove them.
+
+Installing:
+  metasploit-framework
+
+Installing dependencies:
+  bash-completion                     libmpc3
+  binutils-mingw-w64-base             libmpfr6
+  binutils-mingw-w64-i686             libnuma1
+  binutils-mingw-w64-x86-64           libpq5
+  build-essential                     libruby
+  bundler                             libruby3.3
+  cpp                                 libsensors-config
+  cpp-15                              libsensors5
+  cpp-15-aarch64-linux-gnu            libstdc++-15-dev
+  cpp-aarch64-linux-gnu               libtsan2
+  curl                                libtypes-serialiser-perl
+  dpkg-dev                            libubsan1
+  fakeroot                            liburing2
+  fonts-lato                          libxslt1.1
+  g++                                 libz3-4
+  g++-15                              make
+  g++-15-aarch64-linux-gnu            mingw-w64-common
+  g++-aarch64-linux-gnu               mingw-w64-i686-dev
+  gcc                                 mingw-w64-x86-64-dev
+  gcc-15                              nasm
+  gcc-15-aarch64-linux-gnu            postgresql
+  gcc-aarch64-linux-gnu               postgresql-18
+  gcc-mingw-w64-base                  postgresql-18-jit
+  gcc-mingw-w64-i686-win32            postgresql-client-18
+  gcc-mingw-w64-i686-win32-runtime    postgresql-client-common
+  gcc-mingw-w64-x86-64-win32          postgresql-common
+  gcc-mingw-w64-x86-64-win32-runtime  rake
+  javascript-common                   ruby
+  john                                ruby-bundler
+  john-data                           ruby-csv
+  libalgorithm-diff-perl              ruby-dev
+  libalgorithm-diff-xs-perl           ruby-did-you-mean
+  libalgorithm-merge-perl             ruby-json
+  libasan8                            ruby-net-telnet
+  libcc1-0                            ruby-ruby2-keywords
+  libcommon-sense-perl                ruby-rubygems
+  libfakeroot                         ruby-sdbm
+  libgcc-15-dev                       ruby-webrick
+  libgmp-dev                          ruby-xmlrpc
+  libgmpxx4ldbl                       ruby3.3
+  libhwasan0                          ruby3.3-dev
+  libisl23                            ruby3.3-doc
+  libitm1                             rubygems-integration
+  libjs-jquery                        sq
+  libjson-perl                        sysstat
+  libjson-xs-perl                     unzip
+  libllvm21                           zip
+  liblsan0
+
+Suggested packages:
+  cpp-doc                    bison                  make-doc
+  gcc-15-locales             gdb                    clamav
+  cpp-15-doc                 gcc-doc                clamav-daemon
+  debian-keyring             gdb-aarch64-linux-gnu  default-jre-headless
+  debian-tag2upload-keyring  wordlist               wine
+  gcc-15-doc                 gmp-doc                wine64
+  gcc-multilib               libgmp10-doc           postgresql-doc
+  autoconf                   libmpfr-dev            postgresql-doc-18
+  automake                   libpq-oauth            ri
+  libtool                    lm-sensors             isag
+  flex                       libstdc++-15-doc
+
+Summary:
+  Upgrading: 0, Installing: 96, Removing: 0, Not Upgrading: 13
+  18 not fully installed or removed.
+  Download size: 541 MB
+  Space needed: 2094 MB / 6386 MB available
+
+Continue? [Y/n] Get:1 http://kali.download/kali kali-rolling/main arm64 fonts-lato all 2.015-1 [2780 kB]
+Get:13 http://mirror.kku.ac.th/kali kali-rolling/main arm64 libcc1-0 arm64 16-20260322-1 [38.8 kB]
+Get:2 http://kali.download/kali kali-rolling/main arm64 bash-completion all 1:2.16.0-8 [319 kB]
+Get:3 http://http.kali.org/kali kali-rolling/main arm64 binutils-mingw-w64-base arm64 2.45.90.20260125-1+13.3 [164 kB]
+Get:4 http://http.kali.org/kali kali-rolling/main arm64 binutils-mingw-w64-i686 arm64 2.45.90.20260125-1+13.3 [2344 kB]
+Get:18 http://mirror.kku.ac.th/kali kali-rolling/main arm64 libubsan1 arm64 16-20260322-1 [1080 kB]
+Get:5 http://http.kali.org/kali kali-rolling/main arm64 binutils-mingw-w64-x86-64 arm64 2.45.90.20260125-1+13.3 [2915 kB]
+Get:42 http://mirror.kku.ac.th/kali kali-rolling/main arm64 ruby3.3 arm64 3.3.8-2 [834 kB]
+Get:6 http://kali.download/kali kali-rolling/main arm64 libisl23 arm64 0.27-2 [598 kB]
+Get:7 http://kali.download/kali kali-rolling/main arm64 libmpfr6 arm64 4.2.2-3 [691 kB]
+Get:77 http://http.kali.org/kali kali-rolling/main arm64 libsensors5 arm64 1:3.6.2-2+b2 [36.2 kB]
+Get:8 http://kali.download/kali kali-rolling/main arm64 libmpc3 arm64 1.3.1-3 [49.3 kB]
+Get:9 http://kali.download/kali kali-rolling/main arm64 cpp-15-aarch64-linux-gnu arm64 15.2.0-17 [10.2 MB]
+Get:89 http://mirror.kku.ac.th/kali kali-rolling/main arm64 ruby3.3-dev arm64 3.3.8-2 [1045 kB]
+Get:10 http://kali.download/kali kali-rolling/main arm64 cpp-15 arm64 15.2.0-17 [1276 B]
+Get:11 http://kali.download/kali kali-rolling/main arm64 cpp-aarch64-linux-gnu arm64 4:15.2.0-5 [5320 B]
+Get:12 http://kali.download/kali kali-rolling/main arm64 cpp arm64 4:15.2.0-5 [1564 B]
+Get:14 http://kali.download/kali kali-rolling/main arm64 libitm1 arm64 16-20260322-1 [24.2 kB]
+Get:15 http://kali.download/kali kali-rolling/main arm64 libasan8 arm64 16-20260322-1 [2673 kB]
+Get:16 http://kali.download/kali kali-rolling/main arm64 liblsan0 arm64 16-20260322-1 [1213 kB]
+Get:17 http://kali.download/kali kali-rolling/main arm64 libtsan2 arm64 16-20260322-1 [2449 kB]
+Get:19 http://kali.download/kali kali-rolling/main arm64 libhwasan0 arm64 16-20260322-1 [1507 kB]
+Get:20 http://kali.download/kali kali-rolling/main arm64 libgcc-15-dev arm64 15.2.0-17 [2369 kB]
+Get:21 http://kali.download/kali kali-rolling/main arm64 gcc-15-aarch64-linux-gnu arm64 15.2.0-17 [19.6 MB]
+Get:22 http://kali.download/kali kali-rolling/main arm64 gcc-15 arm64 15.2.0-17 [531 kB]
+Get:23 http://kali.download/kali kali-rolling/main arm64 gcc-aarch64-linux-gnu arm64 4:15.2.0-5 [1432 B]
+Get:24 http://kali.download/kali kali-rolling/main arm64 gcc arm64 4:15.2.0-5 [5160 B]
+Get:25 http://http.kali.org/kali kali-rolling/main arm64 libstdc++-15-dev arm64 15.2.0-17 [2652 kB]
+Get:26 http://http.kali.org/kali kali-rolling/main arm64 g++-15-aarch64-linux-gnu arm64 15.2.0-17 [11.1 MB]
+Get:27 http://http.kali.org/kali kali-rolling/main arm64 g++-15 arm64 15.2.0-17 [28.0 kB]
+Get:28 http://http.kali.org/kali kali-rolling/main arm64 g++-aarch64-linux-gnu arm64 4:15.2.0-5 [1196 B]
+Get:29 http://http.kali.org/kali kali-rolling/main arm64 g++ arm64 4:15.2.0-5 [1332 B]
+Get:30 http://http.kali.org/kali kali-rolling/main arm64 make arm64 4.4.1-3+b1 [454 kB]
+Get:31 http://http.kali.org/kali kali-rolling/main arm64 dpkg-dev all 1.23.7+kali1 [1320 kB]
+Get:32 http://kali.download/kali kali-rolling/main arm64 build-essential arm64 12.12 [4624 B]
+Get:33 http://kali.download/kali kali-rolling/main arm64 rubygems-integration all 1.19 [5488 B]
+Get:34 http://kali.download/kali kali-rolling/main arm64 rake all 13.4.2-1 [65.4 kB]
+Get:35 http://kali.download/kali kali-rolling/main arm64 ruby-csv all 3.3.5-1 [42.3 kB]
+Get:36 http://kali.download/kali kali-rolling/main arm64 ruby-did-you-mean all 2.0.0-1 [21.0 kB]
+Get:37 http://kali.download/kali kali-rolling/main arm64 ruby-net-telnet all 0.2.0-1 [13.1 kB]
+Get:38 http://kali.download/kali kali-rolling/main arm64 ruby-ruby2-keywords all 0.0.5-1 [4300 B]
+Get:39 http://kali.download/kali kali-rolling/main arm64 ruby-webrick all 1.9.2-1 [59.8 kB]
+Get:40 http://kali.download/kali kali-rolling/main arm64 ruby-xmlrpc all 0.3.3-2 [24.4 kB]
+Get:41 http://kali.download/kali kali-rolling/main arm64 libruby3.3 arm64 3.3.8-2 [6142 kB]
+Get:43 http://http.kali.org/kali kali-rolling/main arm64 libruby arm64 1:3.3+b1 [5436 B]
+Get:44 http://http.kali.org/kali kali-rolling/main arm64 ruby arm64 1:3.3+b1 [6560 B]
+Get:45 http://kali.download/kali kali-rolling/main arm64 ruby-rubygems all 3.6.7-2 [407 kB]
+Get:46 http://kali.download/kali kali-rolling/main arm64 ruby-bundler all 2.6.7-2 [430 kB]
+Get:47 http://kali.download/kali kali-rolling/main arm64 bundler all 2.6.7-2 [88.6 kB]
+Get:48 http://kali.download/kali kali-rolling/main arm64 curl arm64 8.19.0-3 [271 kB]
+Get:49 http://http.kali.org/kali kali-rolling/main arm64 libfakeroot arm64 1.37.2-1+b1 [28.6 kB]
+Get:50 http://http.kali.org/kali kali-rolling/main arm64 fakeroot arm64 1.37.2-1+b1 [74.6 kB]
+Get:51 http://http.kali.org/kali kali-rolling/main arm64 gcc-mingw-w64-base arm64 15.2.0-12+28.3 [196 kB]
+Get:52 http://kali.download/kali kali-rolling/main arm64 mingw-w64-common all 14.0.0-1 [6353 kB]
+Get:53 http://kali.download/kali kali-rolling/main arm64 mingw-w64-i686-dev all 14.0.0-1 [4723 kB]
+Get:54 http://http.kali.org/kali kali-rolling/main arm64 gcc-mingw-w64-i686-win32-runtime arm64 15.2.0-12+28.3 [12.6 MB]
+Get:55 http://http.kali.org/kali kali-rolling/main arm64 gcc-mingw-w64-i686-win32 arm64 15.2.0-12+28.3 [36.6 MB]
+Get:56 http://kali.download/kali kali-rolling/main arm64 mingw-w64-x86-64-dev all 14.0.0-1 [5277 kB]
+Get:57 http://http.kali.org/kali kali-rolling/main arm64 gcc-mingw-w64-x86-64-win32-runtime arm64 15.2.0-12+28.3 [13.5 MB]
+Get:58 http://http.kali.org/kali kali-rolling/main arm64 gcc-mingw-w64-x86-64-win32 arm64 15.2.0-12+28.3 [37.2 MB]
+Get:59 http://http.kali.org/kali kali-rolling/main arm64 javascript-common all 12+nmu1 [4864 B]
+Get:60 http://http.kali.org/kali kali-rolling/main arm64 john-data all 1.9.0-Jumbo-1+git20211102-0kali10 [22.8 MB]
+Get:61 http://http.kali.org/kali kali-rolling/main arm64 john arm64 1.9.0-Jumbo-1+git20211102-0kali10 [3968 kB]
+Get:62 http://kali.download/kali kali-rolling/main arm64 libalgorithm-diff-perl all 1.201-1 [43.3 kB]
+Get:63 http://http.kali.org/kali kali-rolling/main arm64 libalgorithm-diff-xs-perl arm64 0.04-9+b1 [11.1 kB]
+Get:64 http://kali.download/kali kali-rolling/main arm64 libalgorithm-merge-perl all 0.08-5 [11.8 kB]
+Get:65 http://http.kali.org/kali kali-rolling/main arm64 libcommon-sense-perl arm64 3.75-3+b5 [22.9 kB]
+Get:66 http://http.kali.org/kali kali-rolling/main arm64 libgmpxx4ldbl arm64 2:6.3.0+dfsg-5+b2 [328 kB]
+Get:67 http://http.kali.org/kali kali-rolling/main arm64 libgmp-dev arm64 2:6.3.0+dfsg-5+b2 [632 kB]
+Get:68 http://http.kali.org/kali kali-rolling/main arm64 libjs-jquery all 3.7.1+dfsg+~3.5.33-1 [319 kB]
+Get:69 http://kali.download/kali kali-rolling/main arm64 libjson-perl all 4.10000-1 [87.5 kB]
+Get:70 http://kali.download/kali kali-rolling/main arm64 libtypes-serialiser-perl all 1.01-1 [12.2 kB]
+Get:71 http://kali.download/kali kali-rolling/main arm64 libjson-xs-perl arm64 4.040-1 [90.6 kB]
+Get:72 http://http.kali.org/kali kali-rolling/main arm64 libz3-4 arm64 4.13.3-1+b2 [7362 kB]
+Get:73 http://http.kali.org/kali kali-rolling/main arm64 libllvm21 arm64 1:21.1.8-3+b1 [25.4 MB]
+Get:74 http://http.kali.org/kali kali-rolling/main arm64 libnuma1 arm64 2.0.19-1+b2 [21.5 kB]
+Get:75 http://http.kali.org/kali kali-rolling/main arm64 libpq5 arm64 18.3-1+b1 [248 kB]
+Get:76 http://kali.download/kali kali-rolling/main arm64 libsensors-config all 1:3.6.2-2 [16.2 kB]
+Get:78 http://kali.download/kali kali-rolling/main arm64 liburing2 arm64 2.14-1 [27.6 kB]
+Get:79 http://kali.download/kali kali-rolling/main arm64 libxslt1.1 arm64 1.1.45-0.1 [146 kB]
+Get:80 http://http.kali.org/kali kali-rolling/main arm64 nasm arm64 3.01-1+b1 [452 kB]
+Get:81 http://kali.download/kali kali-rolling/main arm64 postgresql-client-common all 290 [40.5 kB]
+Get:82 http://http.kali.org/kali kali-rolling/main arm64 postgresql-client-18 arm64 18.3-1+b1 [2060 kB]
+Get:83 http://kali.download/kali kali-rolling/main arm64 postgresql-common all 290 [105 kB]
+Get:84 http://http.kali.org/kali kali-rolling/main arm64 postgresql-18 arm64 18.3-1+b1 [6795 kB]
+Get:85 http://http.kali.org/kali kali-rolling/main arm64 postgresql all 18+290 [10.8 kB]
+Get:86 http://http.kali.org/kali kali-rolling/main arm64 ruby-json arm64 2.19.4+dfsg-1 [107 kB]
+Get:87 http://kali.download/kali kali-rolling/main arm64 metasploit-framework arm64 6.4.126-0kali1 [258 MB]
+Get:88 http://http.kali.org/kali kali-rolling/main arm64 postgresql-18-jit arm64 18.3-1+b1 [9779 kB]
+Get:90 http://http.kali.org/kali kali-rolling/main arm64 ruby-dev arm64 1:3.3+b1 [5572 B]
+Get:91 http://http.kali.org/kali kali-rolling/main arm64 ruby-sdbm arm64 1.0.0-5+b8 [14.3 kB]
+Get:92 http://kali.download/kali kali-rolling/main arm64 ruby3.3-doc all 3.3.8-2 [2965 kB]
+Get:93 http://kali.download/kali kali-rolling/main arm64 sq arm64 1.3.1-8 [4982 kB]
+Get:94 http://http.kali.org/kali kali-rolling/main arm64 sysstat arm64 12.7.5-2+b3 [590 kB]
+Get:95 http://http.kali.org/kali kali-rolling/main arm64 unzip arm64 6.0-29+b1 [163 kB]
+Get:96 http://http.kali.org/kali kali-rolling/main arm64 zip arm64 3.0-15+b1 [227 kB]
+Extracting templates from packages: 31%Extracting templates from packages: 62%Extracting templates from packages: 93%Extracting templates from packages: 100%
+Preconfiguring packages ...
+Fetched 541 MB in 2min 41s (3366 kB/s)
+Setting up systemd (260.1-1) ...
